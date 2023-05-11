@@ -176,6 +176,6 @@
 
      Використовуйте цей селектор :invalid  */
 
-.lesson-four-task-twenty label:invalid {
+.lesson-four-task-twenty input:invalid {
     background-color: red;
 }
