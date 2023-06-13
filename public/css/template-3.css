@@ -14,7 +14,7 @@
     --color-title: #212529;
     --color-text: #343a40;
 
-    --border-radius: 12px;
+    --border-radius-b: 12px;
 
     --weight-title: 500;
     --weight-text: 400;
@@ -50,7 +50,7 @@
     color: var(--color-white);
     width: 24px;
     height: 24px;
-    border-radius: calc(var(--border-radius)/2);
+    border-radius: calc(var(--border-radius-b)/2);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -114,7 +114,7 @@
 .hero_image {
    width: 500px;
    height: 500px;
-   border-radius: var(--border-radius);
+   border-radius: var(--border-radius-b);
 }
 
 .hero_content {
@@ -175,7 +175,7 @@
     padding: var(--space-m) var(--space-xm);
     font-size: var(--size-d);
     text-decoration: none;
-    border-radius: var(--border-radius);
+    border-radius: var(--border-radius-b);
 }
 
 .card_button {
@@ -193,7 +193,7 @@
     align-items: center;
     background: var(--color-primary);
     padding: var(--space-l);
-    border-radius: var(--border-radius);
+    border-radius: var(--border-radius-b);
 }
 
 .form_content {

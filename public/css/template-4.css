@@ -14,7 +14,7 @@
     --color-title: #212529;
     --color-text: #343a40;
 
-    --border-radius: 12px;
+    --border-radius-b: 12px;
 
     --weight-title: 500;
     --weight-text: 400;
@@ -50,7 +50,7 @@
     color: var(--color-white);
     width: 24px;
     height: 24px;
-    border-radius: calc(var(--border-radius)/2);
+    border-radius: calc(var(--border-radius-b)/2);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -112,7 +112,7 @@
 .main_image {
    width: 500px;
    height: 500px;
-   border-radius: var(--border-radius);
+   border-radius: var(--border-radius-b);
 }
 
 .main_content {
