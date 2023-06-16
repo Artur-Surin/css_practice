@@ -92,7 +92,7 @@ margin-bottom: 80px;
 
 .hero {
     background: #343A40;
-    border-radius: 24px;
+    border-radius: var(--border-radius-l);
     padding: 80px;
     display: flex;
     flex-direction: column;
@@ -121,7 +121,7 @@ margin-bottom: 80px;
 .preview {
     padding: 24px;
     border: 1px solid #DEE2E6;
-    border-radius: 24px;
+    border-radius: var(--border-radius-l);
     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.05);
 }
 
